@@ -3,13 +3,13 @@ body {
     font-family: Arial, sans-serif;
     /* Define a fonte principal como Arial, com uma alternativa sans-serif caso Arial não esteja disponível */
     
-    background-color: #000000;
+    background-color: #ffffff;
     /* Define a cor de fundo da página como preta (#000000) */
 }       
 
 h1 {
     /* Estiliza o elemento <h1> (título principal) da página */
-    color: #ffffff;
+    color: #000000;
     /* Define a cor do texto do título como branca (#ffffff) */
     
     text-align: center;

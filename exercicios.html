@@ -1,32 +1,63 @@
 <!DOCTYPE html>
-<!-- Define o tipo de documento, indicando que é um documento HTML5 -->
-
 <html lang="pt-BR">
-<!-- Inicia o documento HTML e define o idioma da página como português do Brasil -->
-
 <head>
     <meta charset="UTF-8">
-    <!-- Define a codificação de caracteres da página para UTF-8, permitindo a exibição de caracteres especiais como acentos e símbolos -->
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Configura a largura da página para se ajustar ao tamanho da tela do dispositivo, melhorando a visualização em dispositivos móveis -->
-
-    <title>exercícios</title>
-    <!-- Define o título da página, que aparece na aba do navegador -->
-
+    <title>Guia do GitHub</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <!-- Linka um arquivo CSS externo para estilizar a página, localizado no diretório "assets/css" -->
 </head>
-
 <body>
-    <h1>Meus exercícios</h1>
-    <!-- Exibe um título principal na página -->
-
-    <img src="assets/images/mistras.jpg" alt="Mistras Logo" width="300">
-    <!-- Exibe uma imagem, com a fonte do arquivo "mistras.jpg", o texto alternativo (caso a imagem não carregue) sendo "Mistras Logo" e a largura da imagem definida como 300 pixels -->
+    <header>
+        <h1>Guia Básico do GitHub</h1>
+        <img src="assets/images/mistras.jpg" alt="Mistras Logo" width="300">
+    </header>
+    
+    <section>
+        <h2>1. Criando uma Conta</h2>
+        <p>Acesse <a href="https://github.com/" target="_blank">GitHub</a> e clique em "Sign Up" para criar sua conta.</p>
+    </section>
+    
+    <section>
+        <h2>2. Instalando o Git</h2>
+        <p>Baixe e instale o Git a partir do site oficial: <a href="https://git-scm.com/" target="_blank">git-scm.com</a></p>
+        <p>Após a instalação, configure seu usuário e e-mail:</p>
+        <pre>
+            git config --global user.name "Seu Nome"
+            git config --global user.email "seuemail@example.com"
+        </pre>
+    </section>
+    
+    <section>
+        <h2>3. Criando e Clonando Repositórios</h2>
+        <p>Para criar um novo repositório, clique em "New Repository" no GitHub e siga as instruções.</p>
+        <p>Para clonar um repositório existente, use:</p>
+        <pre>
+            git clone https://github.com/usuario/repo.git
+        </pre>
+    </section>
+    
+    <section>
+        <h2>4. Trabalhando com Commits</h2>
+        <p>Adicione e confirme alterações com os seguintes comandos:</p>
+        <pre>
+            git add .
+            git commit -m "Mensagem do commit"
+        </pre>
+    </section>
+    
+    <section>
+        <h2>5. Enviando para o GitHub</h2>
+        <p>Envie suas alterações para o repositório remoto:</p>
+        <pre>
+            git push origin main
+        </pre>
+    </section>
+    
+    <footer>
+        <p>Guia criado para ajudar iniciantes no GitHub.</p>
+        <img src="assets/images/mistras.jpg" alt="Mistras Logo" width="100">
+    </footer>
 
     <script src="assets/js/script.js"></script>
-    <!-- Vincula um arquivo JavaScript externo chamado "script.js" que se encontra no diretório "assets/js" -->
 </body>
-
 </html>
